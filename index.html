@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Zabar Wassim</title>
+    <meta name="description" content="Portfolio de Zabar Wassim — Étudiant en informatique (EPITA), création de jeux vidéo, développement multijoueur.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Wassim</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#introduction" class="nav-link">Introduction</a>
+                <a href="#parcours" class="nav-link">Parcours Académique</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#experience" class="nav-link">Expériences</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#conclusion" class="nav-link">Conclusion</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Bonjour, je suis 
+                        <span class="gradient-text">Zabar Wassim</span>
+                    </h1>
+                    <p class="hero-description">
+                        Étudiant en informatique passionné par la technologie et le développement. 
+                        Année : 2024-2025
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary">
+                            <i data-lucide="code"></i>
+                            Voir mes projets
+                        </a>
+                        <a href="assets/CV_Wassim.pdf" download class="btn btn-secondary">
+                            <i data-lucide="download"></i>
+                            Télécharger CV
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Années d'études</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Langages maîtrisés</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Projets réalisés</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <i data-lucide="code"></i>
+                        <span>Développement</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i data-lucide="gamepad-2"></i>
+                        <span>Game Dev</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i data-lucide="users"></i>
+                        <span>Multijoueur</span>
+                    </div>
+                    <div class="hero-image">
+                        <div class="image-placeholder">
+                            <i data-lucide="user"></i>
+                            <span>Photo de profil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="introduction">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Introduction</h2>
+                <p class="section-subtitle">Découvrez mon parcours et mes motivations</p>
+            </div>
+            <div class="introduction-content">
+                <div class="intro-card">
+                    <p>
+                        Étudiant en informatique en deuxième année post-bac, la technologie et la résolution de problèmes complexes me passionnent. Ce domaine offre un terrain d'apprentissage infini où chaque projet repousse mes limites techniques.
+                    </p>
+                </div>
+                <div class="intro-card">
+                    <p>
+                        J'ai réalisé plusieurs projets de jeux vidéo en autonomie, combinant créativité et rigueur technique. Cette pratique améliore mes compétences en programmation et gestion de projet.
+                    </p>
+                </div>
+                <div class="intro-card">
+                    <p>
+                        Je nourris un vif intérêt pour la cybersécurité, fasciné par ses enjeux stratégiques. Cette double passion me permet de développer un profil polyvalent en informatique.
+                    </p>
+                </div>
+                <div class="intro-card">
+                    <p>
+                        Mon portfolio présente mes compétences techniques et projets, démontrant ma capacité à apprendre rapidement et évoluer dans des environnements complexes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parcours Académique Section -->
+    <section id="parcours" class="parcours">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Parcours Académique</h2>
+                <p class="section-subtitle">Mon parcours éducatif et mes formations</p>
+            </div>
+            <div class="parcours-content">
+                <div class="parcours-card">
+                    <p>
+                        Étudiant à l'EPITA, école d'ingénieurs en informatique, j'ai intégré cette formation après un baccalauréat général spécialisé en mathématiques et physique. Ce parcours scientifique a développé ma rigueur logique et mon esprit d'analyse pour la résolution de problèmes complexes.
+                    </p>
+                </div>
+                <div class="parcours-card">
+                    <p>
+                        La formation EPITA couvre les fondements de l'informatique : algorithmique avancée, structures de données, programmation orientée objet, systèmes d'exploitation et architecture des ordinateurs. Ces enseignements théoriques sont complétés par la pratique via des projets encadrés et personnels.
+                    </p>
+                </div>
+                <div class="parcours-card">
+                    <p>
+                        J'ai participé à plusieurs projets de développement de jeux vidéo en C# avec Unity. En tant que chef de projet sur l'un d'entre eux, j'ai contribué au développement technique multijoueur et aux aspects graphiques, développant mes compétences en programmation, gestion de projet et travail d'équipe.
+                    </p>
+                </div>
+                <div class="parcours-card">
+                    <p>
+                        Ces expériences ont affiné mon profil technique et ma capacité à travailler en équipe. Elles confirment mon projet professionnel : poursuivre une carrière en ingénierie informatique, dans le développement logiciel, les technologies interactives ou la conception d'applications complexes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projets Réalisés</h2>
+                <p class="section-subtitle">Mes réalisations techniques et créatives</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i data-lucide="gamepad-2"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet Z</h3>
+                        <p class="project-description">
+                            Jeu de type platform fighter développé en équipe à l'EPITA. Objectif : apprendre à concevoir un jeu vidéo de A à Z, de la définition du gameplay jusqu'au prototype jouable.
+                        </p>
+                        <div class="project-details">
+                            <div class="project-role">
+                                <strong>Rôle :</strong> Chef de projet et développement multijoueur
+                            </div>
+                            <div class="project-tech">
+                                <strong>Technologies :</strong> Unity, C#
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <p>Développement en C# avec Unity : gestion des scènes, contrôles précis, physique du jeu, états d'animation. Responsable de la synchronisation multijoueur et intégration des éléments graphiques.</p>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Unity</span>
+                            <span class="tag">C#</span>
+                            <span class="tag">Multijoueur</span>
+                            <span class="tag">Chef de projet</span>
+                            <span class="tag">Game Design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i data-lucide="shield"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet 2</h3>
+                        <p class="project-description">
+                            Description du deuxième projet à venir.
+                        </p>
+                        <div class="project-details">
+                            <div class="project-tech">
+                                <strong>Technologies :</strong> À définir
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">À venir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i data-lucide="vr-headset"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet 3</h3>
+                        <p class="project-description">
+                            Description du troisième projet à venir.
+                        </p>
+                        <div class="project-details">
+                            <div class="project-tech">
+                                <strong>Technologies :</strong> À définir
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">À venir</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Projet 4</h3>
+                        <p class="project-description">
+                            Description du quatrième projet à venir.
+                        </p>
+                        <div class="project-details">
+                            <div class="project-tech">
+                                <strong>Technologies :</strong> À définir
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">À venir</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expériences Professionnelles Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Expériences Professionnelles</h2>
+                <p class="section-subtitle">Mon parcours professionnel et mes réalisations</p>
+            </div>
+            <div class="experience-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Restaurant local — Caissier</h3>
+                                <span class="experience-date">Juin 2025 — 1 mois</span>
+                            </div>
+                            <div class="experience-description">
+                                <ul>
+                                    <li>Encaissement et accueil des clients</li>
+                                    <li>Gestion de la caisse et rendu monnaie</li>
+                                    <li>Travail d'équipe et rapidité pendant les heures de pointe</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <h3>Teleperformance — Agent de support client</h3>
+                                <span class="experience-date">Juin 2022 — 2 semaines</span>
+                            </div>
+                            <div class="experience-description">
+                                <ul>
+                                    <li>Réponse aux appels entrants et assistance des clients</li>
+                                    <li>Résolution rapide des demandes et communication claire</li>
+                                    <li>Compétences en relation client</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-soft-skills">
+                <div class="soft-skills-card">
+                    <h3>Soft Skills</h3>
+                    <p>
+                        Du côté des soft skills, j'ai développé des compétences en gestion d'équipe, en communication technique et en prise de décision collective, essentielles pour assurer l'avancement du projet dans de bonnes conditions. Cette expérience m'a également appris à être plus réactif face aux imprévus, à prioriser les tâches importantes et à garder une vision globale sur l'état du projet.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Compétences</h2>
+                <p class="section-subtitle">Technologies et outils que je maîtrise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Langages de Programmation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C#</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">C</span>
+                                <span class="skill-level">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Python</span>
+                                <span class="skill-level">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">OCaml</span>
+                                <span class="skill-level">50%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Développement Web</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">HTML/CSS/JavaScript</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Création de sites</span>
+                                <span class="skill-level">65%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Interactions JavaScript</span>
+                                <span class="skill-level">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Outils Techniques</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Unity</span>
+                                <span class="skill-level">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Git</span>
+                                <span class="skill-level">70%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Linux</span>
+                                <span class="skill-level">60%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name">Windows</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="soft-skills">
+                <h3>Compétences Transversales</h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill">
+                        <i data-lucide="brain"></i>
+                        <span>Résolution de problèmes & logique</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i data-lucide="zap"></i>
+                        <span>Capacité à apprendre vite, esprit d'équipe et adaptabilité</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i data-lucide="message-circle"></i>
+                        <span>Collaboration et communication</span>
+                    </div>
+                    <div class="soft-skill">
+                        <i data-lucide="shield"></i>
+                        <span>Intérêt pour la cybersécurité</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conclusion Section -->
+    <section id="conclusion" class="conclusion">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Conclusion</h2>
+                <p class="section-subtitle">Mon engagement et mes perspectives</p>
+            </div>
+            <div class="conclusion-content">
+                <div class="conclusion-card">
+                    <p>
+                        Ce portfolio présente un aperçu de mon parcours académique, de mes compétences techniques, ainsi que de projets qui ont marqué ma formation et mon développement personnel. À travers mes expériences dans la création de jeux vidéo et mon intérêt pour la cybersécurité, j'ai pu développer un profil polyvalent, alliant créativité, rigueur et esprit d'analyse.
+                    </p>
+                </div>
+                <div class="conclusion-card">
+                    <p>
+                        Mon engagement constant dans l'apprentissage me permet d'approfondir continuellement mes connaissances et à relever des défis toujours plus complexes. Chaque projet est pour moi une occasion d'évoluer, d'expérimenter de nouvelles technologies, et de perfectionner mes compétences, tant sur le plan technique que dans la gestion de projet et le travail en équipe.
+                    </p>
+                </div>
+                <div class="conclusion-card">
+                    <p>
+                        Ce portfolio est donc non seulement une vitrine de mes réalisations, mais aussi un reflet de ma motivation à progresser dans le domaine de l'informatique, à contribuer à des projets innovants, et à apporter une valeur ajoutée dans un environnement professionnel dynamique.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes Contacts</h2>
+                <p class="section-subtitle">N'hésitez pas à me contacter</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>zabarwassim31@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <div>
+                            <h4>Localisation</h4>
+                            <p>Toulouse, France</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="calendar"></i>
+                        <div>
+                            <h4>Disponibilité</h4>
+                            <p>Ouvert aux opportunités</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Intéressé par mon profil ?</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de projets, 
+                    d'opportunités ou simplement échanger sur le développement.</p>
+                    <a href="mailto:zabarwassim31@gmail.com" class="btn btn-primary">
+                        <i data-lucide="mail"></i>
+                        Me contacter
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; <span id="current-year"></span> Zabar Wassim — Tous droits réservés.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#introduction">Introduction</a>
+                    <a href="#parcours">Parcours</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
